@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='375' height='194'%3E%3Cpath fill='%23D6E1FF' fill-rule='evenodd' d='M-131.808 155.366c97.026 51.512 204.233 51.512 321.62 0 117.388-51.512 223.27-51.512 317.648 0V0h-639.268v155.366z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+}
+@media screen and (min-width: 960px) {
+  body {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='437'%3E%3Cpath fill='%23D6E1FF' fill-rule='evenodd' d='M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z'/%3E%3C/svg%3E");
+  }
+}
+body main {
+  position: relative;
+}
+body .card {
+  background-color: #fff;
+  max-width: 21rem;
+  margin: 5rem 0;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+@media screen and (min-width: 768px) {
+  body .card {
+    max-width: 23rem;
+  }
+}
+body .card .card_hero {
+  border-radius: 20px 20px 0 0;
+}
+body .card .card_info {
+  text-align: center;
+}
+body .card .card_info .card_info_title {
+  color: #1f2f56;
+  padding-top: 2rem;
+  font-size: 1.438rem;
+  font-weight: 900;
+}
+body .card .card_info .card_info_text {
+  max-width: 17rem;
+  margin: 0 auto;
+  color: #7280a7;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 1rem 0 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  body .card .card_info .card_info_text {
+    max-width: 20rem;
+  }
+}
+body .card .card_subscription {
+  background-color: #f5f7ff;
+  max-width: 17rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-gap: 1rem;
+  place-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  body .card .card_subscription {
+    max-width: 20rem;
+  }
+}
+body .card .card_subscription .flex-column {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+}
+body .card .card_subscription .flex-column .card_subscription_contract {
+  color: #1f2f56;
+  font-weight: 700;
+}
+body .card .card_subscription .flex-column .card_subscription_price {
+  color: #7280a7;
+  font-weight: 500;
+}
+body .card .card_subscription .card_subscription_options {
+  color: #3829e0;
+  font-size: 0.813rem;
+  font-weight: 700;
+  justify-self: end;
+}
+body .card .card_subscription .card_subscription_options:hover {
+  color: #766cf1;
+}
+body .card .card_call-to-action {
+  display: flex;
+  flex-direction: column;
+  max-width: 17rem;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  body .card .card_call-to-action {
+    max-width: 20rem;
+  }
+}
+body .card .card_call-to-action .card_call-to-action_payment {
+  background-color: #3829e0;
+  color: #fff;
+  padding: 1rem 3.75rem;
+  border-radius: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+body .card .card_call-to-action .card_call-to-action_payment:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+body .card .card_call-to-action .card_call-to-action_cancel {
+  background: none;
+  color: #7280a7;
+  font-weight: 900;
+  margin: 1.5rem 0 2.5rem;
+}
+body .card .card_call-to-action .card_call-to-action_cancel:hover {
+  color: #1f2f56;
+  cursor: pointer;
+}
+body footer {
+  position: absolute;
+  bottom: 0;
+  color: #7280a7;
+}
+body footer .attribution a {
+  color: #3829e0;
+}/*# sourceMappingURL=style.css.map */
